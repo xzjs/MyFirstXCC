@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/publish/create",
     "pages/publish/index",
     "pages/i/index",
     "pages/find/index",

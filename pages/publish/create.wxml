@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="files">
+    <view class="file" bindtap="selectImg">
+      <image id="img1" class="image" src="{{img1}}"></image>
+    </view>
+    <view class="file" bindtap="selectImg">
+      <image id="img2" class="image" src="{{img2}}"></image>
+    </view>
+    <view class="file" bindtap="selectImg">
+      <image id="img3" class="image" src="{{img3}}"></image>
+    </view>
+  </view>
+  <view class="item">
+    <label>评论</label>
+    <textarea />
+  </view>
+  <view class="item">
+    <label>来源URL</label>
+    <textarea />
+  </view>
+  <button>发 布</button>
+</view>

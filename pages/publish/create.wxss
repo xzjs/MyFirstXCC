@@ -1,11 +1,10 @@
-/* pages/publish/index.wxss */
+/* pages/publish/create.wxss */
 
-.articles {
+.files {
   display: flex;
-  flex-wrap: wrap;
 }
 
-.article {
+.file {
   width: 200rpx;
   height: 300rpx;
   display: flex;
@@ -16,6 +15,15 @@
 }
 
 .image {
-  width: 40rpx;
-  height: 40rpx;
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.item{
+    margin: 20rpx;
+}
+
+textarea{
+    border: 1px solid;
+    width: 100%;
 }
