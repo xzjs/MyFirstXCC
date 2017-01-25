@@ -1,0 +1,24 @@
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="menu">
+    <view class="menu_item">
+    <image class="r_arrow" src="/img/right.png"></image>
+    <text>系统消息</text>
+    </view>
+    <view class="menu_item">
+    <image class="r_arrow" src="/img/right.png"></image>
+    <text>好友提醒</text>
+    </view>
+    <view class="menu_item">
+    <image class="r_arrow" src="/img/right.png"></image>
+    <text>我发布的主题</text>
+    </view>
+    <view class="menu_item">
+    <image class="r_arrow" src="/img/right.png"></image>
+    <text>我评论过的主题</text>
+    </view>
+  </view>
+</view>

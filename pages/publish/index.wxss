@@ -1,0 +1,19 @@
+/* pages/publish/index.wxss */
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article{
+    width: 200rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: center;
+    margin: 20rpx;
+}
+.image{
+    width: 40rpx;
+    height: 40rpx;
+}

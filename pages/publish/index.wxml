@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="articles">
+    <view class="article" bindtap="addArticle">
+      <image class="image" src="/img/add.png"></image>
+    </view>
+  </view>
+</view>
